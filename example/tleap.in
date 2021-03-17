@@ -1,0 +1,4 @@
+source leaprc.protein.ff14SB
+m= loadpdb new.pdb
+saveamberparm m input.prmtop input.inpcrd
+quit
